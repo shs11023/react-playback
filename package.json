@@ -1,0 +1,29 @@
+{
+  "name": "react-native-playback",
+  "version": "0.0.1",
+  "description": "Media Playback Library in ReactNative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shs11023/react-native-playback.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Media",
+    "Playback",
+    "Video",
+    "Streaming",
+    "react-component",
+    "react-native"
+  ],
+  "author": "shs11023",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shs11023/react-native-playback/issues"
+  },
+  "homepage": "https://github.com/shs11023/react-native-playback#readme"
+}
