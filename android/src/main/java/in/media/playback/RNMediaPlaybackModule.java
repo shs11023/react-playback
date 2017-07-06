@@ -40,6 +40,7 @@ import java.util.Set;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.hsseo.ext.ffmpeg.ffmpegLibrary;
 
 
 public class RNMediaPlaybackModule extends ReactContextBaseJavaModule {
@@ -62,6 +63,6 @@ public class RNMediaPlaybackModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void getItem(String key, Callback successCallback){
-      successCallback.invoke("test hsseo!");
+      successCallback.invoke(ffmpegLibrary.getVersion());
     }
 }

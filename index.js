@@ -1,2 +1,2 @@
-var MedaiPlayback = require('./MedaiPlayback');
-module.exports = MedaiPlayback;
+var MediaPlayback = require('./MediaPlayback');
+module.exports = MediaPlayback;
